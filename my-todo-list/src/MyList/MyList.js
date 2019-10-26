@@ -104,7 +104,7 @@ class MyList extends Component {
 
         console.log(this.state.list);
     }
-//test
+//test 12332
     load_list() {
         fetch("http://localhost:3300/products")
             .then(res => res.json())

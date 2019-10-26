@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID
-const url = 'mongodb://localhost:27017/products_manager';
+const url = 'mongodb://mongo:27017/products_manager';
 
 const productChecker = (req, res, next) => {
 	const product = {

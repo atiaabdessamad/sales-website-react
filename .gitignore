@@ -1,0 +1,7 @@
+/node_modules
+/server/node_modules
+/server/package-lock.json
+/my-todo-list/node_modules
+/my-todo-list/build
+/my-todo-list/public
+/my-todo-list/package-lock.json

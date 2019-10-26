@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Run container') {
       steps {
-        sh '''docker run --name react-front --net=host react-front
+        sh '''docker run -d --name react-front --net=host react-front
 '''
       }
     }

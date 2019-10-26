@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Build container') {
       steps {
-        sh 'docker build -t react-front /my-todo-list'
+        sh 'docker build -t react-front ./my-todo-list'
       }
     }
     stage('Run container') {
